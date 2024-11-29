@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPS Salto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="/img/logo.jpeg" alt="Logo CAPS Salto"></div>
+        <nav>
+            <ul>
+                <li><a href="#first">Nosotros</a></li>
+                <li><a href="#cont">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <img src="/img/presen.jpeg" alt="Hola" class="suavizado presen">
+            <div id="first">
+                <h2>¡Bienvenidos a CAPS Salto! 🤙</h2>
+                <p>Las gorras que van con tu estilo.</p>
+                <h3>¿Qué ofrecemos?</h3>
+                <p>Diseños exclusivos y de calidad.</p>
+                <p>Gorras para todos los gustos</p>
+                <h3>Por qué CAPS Salto?</h3>
+                <p>Porque una buena gorra habla por vos.</p>
+                <h3>¡Sumate y encontrá tu estilo con CAPS Salto! 🧢</h3>
+            </div>
+            <img src="/img/pres.jpeg" alt="" class="suavizado pres">
+        </section>
+
+        <section class="featured-products">
+            <h2>[Gorras Cerradas]</h2>
+            <div class="product-card" onclick="openModal('/img/ft7.jpeg')">
+                <img src="img/ft7.jpeg" alt="Oakland Athletics gris">
+                <h3>Oakland Athletics gris</h3>
+                <p>$35.000</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/ft2.jpeg')">
+                <img src="img/ft2.jpeg" alt="Oakland Athletics verde">
+                <h3>Oakland Athletics verde</h3>
+                <p>$35.000</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/ft3.jpeg')">
+                <img src="img/ft3.jpeg" alt="New York">
+                <h3>New York</h3>
+                <p>$18.500</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/FT4.jpeg')">
+                <img src="img/FT4.jpeg" alt="Raiders black">
+                <h3>Raiders black</h3>
+                <p>$35.000</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/ft5.jpeg')">
+                <img src="img/ft5.jpeg" alt="Oakland Athletics negra">
+                <h3>Oakland Athletics negra</h3>
+                <p>$20.500</p>
+            </div>
+
+            <h2>[Gorras Regulables]</h2>
+            <div class="product-card" onclick="openModal('/img/ft1.jpeg')">
+                <img src="img/ft1.jpeg" alt="New York azul claro">
+                <h3>New York azul claro</h3>
+                <p>$17.000</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/ft6.jpeg')">
+                <img src="img/ft6.jpeg" alt="New York azul oscuro">
+                <h3>New York azul oscuro</h3>
+                <p>$19.500</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/ft8.jpeg')">
+                <img src="img/ft8.jpeg" alt="Oakland Athletics beige">
+                <h3>Oakland Athletics beige</h3>
+                <p>$21.000</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/ft9.jpeg')">
+                <img src="img/ft9.jpeg" alt="New York blanca/azul">
+                <h3>New York blanca/azul</h3>
+                <p>$20.000</p>
+            </div>
+            <div class="product-card" onclick="openModal('/img/ft10.jpeg')">
+                <img src="img/ft10.jpeg" alt="New York">
+                <h3>New York</h3>
+                <p>$18.500</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="cont">
+            <p><a href="https://www.instagram.com/caps.salto_/" target="_blank"><img class="logo-ig" src="/img/ig.jpeg" alt="Instagram"></a></p>
+            <p><a href="https://wa.me/+5492474" target="_blank"><img class="logo-wp" src="/img/wp.jpeg" alt="WhatsApp"></a></p>
+        </section>
+        <p>&copy; 2024 CAPS SALTO </p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-img" class="modal-content" alt="Gorra seleccionada">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
