@@ -32,7 +32,6 @@ header {
   position: relative;
 }
 
-/* Header Navigation */
 header .logo img {
   width: 100px;
 }
@@ -88,22 +87,21 @@ main {
   text-align: center;
   margin: 0 20px;
   flex: 1;
-  padding: 20px; /* Puedes aumentar este padding si quieres más espacio alrededor del texto */
+  padding: 20px;
 }
 
-/* Aumentar el tamaño del texto en el mensaje de presentación */
 .container #first h2 {
-  font-size: 2.5rem; /* Puedes aumentar este tamaño según lo necesites */
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
 .container #first h3 {
-  font-size: 1.8rem; /* Puedes aumentar este tamaño según lo necesites */
+  font-size: 1.8rem;
   margin-bottom: 15px;
 }
 
 .container #first p {
-  font-size: 1.2rem; /* Aquí puedes aumentar el tamaño del párrafo */
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 15px;
 }
@@ -111,6 +109,13 @@ main {
 /* Featured Products */
 .featured-products {
   margin-bottom: 2rem;
+}
+
+.featured-products h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .featured-products .product-card {
